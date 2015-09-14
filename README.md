@@ -1,2 +1,2 @@
 # MyResume
-For a work change
+For a work chance.
