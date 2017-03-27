@@ -1,0 +1,43 @@
+body, html
+  line-height: 1
+  font-weight: 200
+  font-family: 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif
+
+ul 
+  margin-top: 10px
+  margin-bottom: 10px
+
+a 
+  text-decoration: none
+
+section 
+  padding-bottom: 10px
+  border-2px($borderColor)
+section:last-child::after
+  display: none
+
+.info
+  font-size: 16px
+  line-height: 22px
+
+.clearfix
+  display: inline-block
+  &:after
+    display: block
+    content: "."
+    height: 0
+    line-height: 0
+    clear: both
+    visibility: hidden
+
+@media (-webkit-min-device-pixel-ratio: 1.5),(min-device-pixel-ratio: 1.5)
+  .border-2px
+    &::after
+      -webkit-transform: scaleY(0.7)
+      transform: scaleY(0.7)
+
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2)
+  .border-2px
+    &::after
+      -webkit-transform: scaleY(0.5)
+      transform: scaleY(0.5)
