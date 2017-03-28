@@ -71,7 +71,7 @@ export default {
                     data: [
                       "该项目是中国核电工程有限公司管理工程隐患的Hybrid App；",
                       "主要负责日常巡查App功能门户、隐患排查、隐患整改模块的功能开发及维护；",
-                      "使用Zepto.js + Vue.js 实现数据绑定以及组件化开发，使用AppCan.js调用原生插件,编写xml，ejs文件完成门户卡片动态配置、快捷入口功能"
+                      "使用Zepto.js + Vue.js 实现数据绑定以及组件化开发，使用AppCan.js调用原生插件完成语音识别、拍照选择手机图片等功能,编写 xml，ejs文件完成门户卡片动态配置、快捷入口功能"
                     ]
                   },{
                     proTitle: "方正证券-重点事项跟踪",
@@ -105,8 +105,8 @@ export default {
             url: "https://github.com/zhaoning98"
           },
           {
-            label: "在线简历地址：",
-            url: "https://github.com/zhaoning98"
+            label: "在线简历：",
+            url: "https://zhaoning98.github.io/preview/"
           }
         ]
       }
