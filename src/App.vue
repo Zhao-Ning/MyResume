@@ -55,7 +55,7 @@ export default {
           proData: [{
                     proTitle: "正益工作",
                     startTime: "",
-                    endTime: "至今",
+                    endTime: "",
                     proLink: "http://work.zyhao.com",
                     data: [
                       "该项目是企业级门户管理及移动办公得一体式企业级解决方案；",
@@ -66,22 +66,33 @@ export default {
                   },{
                     proTitle: "中国核电-日常巡查",
                     startTime: "",
-                    endTime: "至今",
+                    endTime: "",
                     proLink: "",
                     data: [
                       "该项目是中国核电工程有限公司管理工程隐患的Hybrid App；",
                       "主要负责日常巡查App功能门户、隐患排查、隐患整改模块的功能开发及维护；",
-                      "使用Zepto.js + Vue.js 实现数据绑定以及组件化开发，使用AppCan.js调用原生插件完成语音识别、拍照选择手机图片等功能,编写 xml，ejs文件完成门户卡片动态配置、快捷入口功能"
+                      "使用Zepto.js + Vue.js 实现数据绑定以及组件化开发，使用AppCan.js调用原生插件完成语音识别、拍照选择手机图片等功能，编写 xml，ejs文件完成门户卡片动态配置、快捷入口功能"
                     ]
                   },{
                     proTitle: "方正证券-重点事项跟踪",
                     startTime: "",
-                    endTime: "至今",
+                    endTime: "",
                     proLink: "",
                     data: [
                       "该项目是方正证券内部员工在跟踪管理重点事项的微信端平台;",
                       "负责全部前端页面的开发，包括事项管理、事项提醒、企业通讯录模块前端页面及功能的开发，并完成前后端接口的联调对接工作;",
                       "使用HTML、CSS实现静态页面，根据微信开发者文档完成图片的预览、上传、删除，使用swiper.js完成页面滑动切换效果，使用jQuery操作DOM和进行网络请求"
+                    ]
+                  },{
+                    proTitle: "中国保险万事通",
+                    startTime: "",
+                    endTime: "",
+                    proLink: "",
+                    data: [
+                      "该项目主要为中国保险消费者提供产品咨询、理财咨询、理赔咨询、投诉咨询等在线服务；",
+                      "该项目两部分组成：针对消费者的Hybrid App, 以及 PC 后台管理网站",
+                      "我主要负责该项目的后台管理网站，包括公司管理、客服管理、产品管理、个人中心模块的功能开发;",
+                      "使用HTML、CSS、jQuery 完成页面功能，配合后端人员数据联调，并及时解决bug支持产品上线"
                     ]
                   }]          
                 }
