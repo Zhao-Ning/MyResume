@@ -134,5 +134,7 @@ export default {
 
 <style lang="stylus" rel="stylesheet/stylus">
   .content 
-    padding: 50px 30px
+    width: 80%
+    padding: 50px 0
+    margin: 0 auto
 </style>
